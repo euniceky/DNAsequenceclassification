@@ -23,8 +23,9 @@
 - This notebook contains a CNN <b> model </b> which has two filter layers, two pooling layers, and one hidden layer. 
 - We performed 5-fold cross-validation on the training set to find the best hyperparameters. 
 - The hyperparameters are: the number of filters, the filter sizes (kernel sizes), the pooling size, the number of neurons in the hidden layer (units), and the optimizer. 
+- The best 5-fold cv validation score is 95.28% 
 - With the best parameters, the <b> model </b> predicts the resistance with <b> 97.13% accuracy </b>.
-- The 5-fold cv validation score is 95.28% which is not too far off from the test score of 97.13%. The validation score can be slightly lower than the test score since each fold sees different parts of data during cross-validation. The cv score is a better estimate how the model will perform for unseen data. 
+
 
 
 

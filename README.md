@@ -8,7 +8,7 @@
 - The genes were padded to have equal lengths. 
 - The resistance is one-hot encoded.
 
-### Models in CNNandRNNwithoutCV.ipynb: 
+### Models in [CNNandRNNwithoutCV.ipynb](https://github.com/euniceky/DNAsequenceclassification/blob/master/CNNandRNNwithoutCV.ipynb): 
 
 - In a separate notebook, we built <b>model1 </b> which was a CNN with dropout layers. This model had an underfitting issue.
 
@@ -18,7 +18,7 @@
 - This initial build did not perform as well compared to CNN models. 
 - We did not pursue this route further as the computation cost for RNNs is high. 
 
-### Model in CNN_CV.ipynb: 
+### Model in [CNN_CV.ipynb](https://github.com/euniceky/DNAsequenceclassification/blob/master/CNN_CV.ipynb): 
 
 - This notebook contains a CNN <b> model </b> which has two filter layers, two pooling layers, and one hidden layer. 
 - We performed 5-fold cross-validation on the training set to find the best hyperparameters. 
